@@ -54,5 +54,5 @@ PowerShell
 docker compose build --no-cache app_tests
 
 # Inicialização dos bancos e execução automatizada do Pytest
-docker compose up app_tests
+Docker compose up app_tests
 Ao finalizar, o container de testes aplicará os asserts e retornará o código de saída esperado (code 0), comprovando a estabilidade da API estruturada.
